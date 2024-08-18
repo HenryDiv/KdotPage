@@ -7,14 +7,14 @@ body{
 }
 a{
     text-decoration: none;
-    color: #ffff;
+    color: #000000;
 }
 
 header{
-    width: 1140px;
+    width: 100%;
     min-width: 80%;
     margin: auto;
-    height: 50px;
+    height: 100%;
     display: flex;
     align-items: center;
     position: relative;
@@ -60,10 +60,11 @@ header a{
 .carousel .list .item .content .author{
     font-weight: bold;
     letter-spacing: 10px;
+    color: #000;
 }
 .des{
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 600;
 }
 .carousel .list .item .content .title,
@@ -71,6 +72,8 @@ header a{
     font-weight: bold;
     font-size: 5em;
     list-style: 1.3em;
+
+    
 
 }
 
@@ -128,6 +131,7 @@ header a{
     bottom: 10px;
     left: 10px;
     right: 10px;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .thumbnail .item .content .title{
@@ -198,16 +202,16 @@ header a{
     }
 }
 .carousel .list .item:nth-child(1) .title{
-    animation-delay: 1.2s;
+    animation-delay: 0.2s;
 }
 .carousel .list .item:nth-child(1) .topic{
-    animation-delay: 1.4s;
+    animation-delay: 0.4s;
 }
 .carousel .list .item:nth-child(1) .des{
-    animation-delay: 1.6s;
+    animation-delay: 0.6s;
 }
 .carousel .list .item:nth-child(1) .buttons{
-    animation-delay: 1.8s;
+    animation-delay: 0.8s;
 }
 
 .carousel.next .list .item:nth-child(1) img{
@@ -331,4 +335,7 @@ header a{
 #ouca{
     color: #000;
     border: 1px solid #000;
+}
+#style01{
+    color: #ffffff;
 }
