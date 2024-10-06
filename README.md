@@ -2,6 +2,10 @@
 
 Este projeto é uma página web interativa que exibe um carrossel dos álbuns do rapper **Kendrick Lamar**. A página permite que os usuários naveguem entre os álbuns, visualizando informações sobre eles e acessando links externos para saber mais ou ouvir as músicas.
 
+## Demonstração 
+
+![image](https://github.com/user-attachments/assets/802e46cb-7517-4d60-bdbe-fa06842b7ee7)
+
 ## Funcionalidades
 
 - Exibição de um carrossel com capas e descrições dos álbuns de Kendrick Lamar.
